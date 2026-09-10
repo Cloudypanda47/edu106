@@ -3,104 +3,170 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Little Blog 🌸</title>
+  <title>Cloudypanda ☁️</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header class="site-header">
     <nav class="navbar">
-      <a class="logo" href="#home">🌸 my little blog</a>
+      <a class="logo" href="#home">☁️ Cloudypanda</a>
       <div class="nav-links">
         <a href="#home">Home</a>
         <a href="#posts">Posts</a>
-        <a href="#about">About</a>
+        <a href="#pictures">Pictures</a>
       </div>
     </nav>
   </header>
 
   <main>
-    <section id="home" class="hero">
-      <div class="hero-sparkle sparkle-one">✦</div>
-      <div class="hero-sparkle sparkle-two">✿</div>
-      <div class="hero-content">
-        <p class="eyebrow">welcome to my corner of the internet</p>
-        <h1>little thoughts,<br><span>big feelings.</span></h1>
-        <p class="hero-text">
-          A cozy space for sharing ideas, experiences, discoveries, and whatever
-          else is on my mind.
+
+    <!-- HOME -->
+    <section id="home" class="home-section">
+      <div class="flower flower-left">✿</div>
+      <div class="flower flower-right">❀</div>
+      <div class="home-card">
+        <p class="small-heading">a little corner of the internet</p>
+        <h1>Cloudypanda</h1>
+        <div class="flower-divider">✿　❀　✿</div>
+        <p class="bio">
+          A small collection of thoughts, little moments, and things worth remembering.
         </p>
-        <a class="button" href="#posts">read my posts →</a>
+        <a class="button" href="#posts">look around →</a>
       </div>
+      <div class="cloud cloud-one">☁</div>
+      <div class="cloud cloud-two">☁</div>
     </section>
 
-    <section id="posts" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">from the blog</p>
-        <h2>latest posts 🌼</h2>
-        <p>Here are a few things I've been thinking about lately.</p>
+    <!-- BLOG POSTS -->
+    <section id="posts" class="posts-section">
+      <div class="section-title">
+        <p class="small-heading">notes from my journal</p>
+        <h2>Blog Posts</h2>
+        <p>little thoughts, stories, and things I want to remember.</p>
       </div>
 
-      <div class="featured-post">
-        <div class="featured-art">🌷</div>
-        <div class="featured-content">
-          <span class="tag pink-tag">featured</span>
-          <p class="date">September 9, 2026</p>
-          <h3>Welcome to my blog!</h3>
-          <p>
-            This is where your featured post introduction can go. Replace this
-            text with your own writing whenever you're ready.
-          </p>
-          <a href="#" class="read-more">read more →</a>
+      <div class="journal">
+        <div class="journal-rings">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
         </div>
-      </div>
 
-      <div class="post-grid">
-        <article class="post-card pink-card">
-          <div class="post-icon">☁️</div>
-          <span class="tag">thoughts</span>
-          <p class="date">September 5, 2026</p>
-          <h3>A little reflection</h3>
-          <p>A short preview of your next blog post goes here.</p>
-          <a href="#" class="read-more">read more →</a>
+        <article class="journal-entry">
+          <div class="entry-date">
+            <span class="month">SEP</span>
+            <strong>09</strong>
+            <span class="year">2026</span>
+          </div>
+          <div class="entry-content">
+            <span class="entry-label">entry no. 01</span>
+            <h3>My first post</h3>
+            <p>
+              This is a space for your writing. Replace this sample text with
+              your own first blog post whenever you're ready.
+            </p>
+            <a href="#" class="entry-link">read entry →</a>
+          </div>
+          <div class="entry-flower">🌷</div>
         </article>
 
-        <article class="post-card yellow-card">
-          <div class="post-icon">🌻</div>
-          <span class="tag yellow-tag">life</span>
-          <p class="date">September 1, 2026</p>
-          <h3>Things making me happy</h3>
-          <p>Use this card for a personal story, list, or update.</p>
-          <a href="#" class="read-more">read more →</a>
+        <article class="journal-entry">
+          <div class="entry-date">
+            <span class="month">SEP</span>
+            <strong>05</strong>
+            <span class="year">2026</span>
+          </div>
+          <div class="entry-content">
+            <span class="entry-label">entry no. 02</span>
+            <h3>A little reflection</h3>
+            <p>
+              Another journal-style entry can go here. You can write about
+              school, everyday life, ideas, or anything your class assignment asks for.
+            </p>
+            <a href="#" class="entry-link">read entry →</a>
+          </div>
+          <div class="entry-flower">🌼</div>
         </article>
 
-        <article class="post-card lavender-card">
-          <div class="post-icon">🦋</div>
-          <span class="tag lavender-tag">school</span>
-          <p class="date">August 27, 2026</p>
-          <h3>What I've been learning</h3>
-          <p>Share something interesting you've learned recently.</p>
-          <a href="#" class="read-more">read more →</a>
+        <article class="journal-entry">
+          <div class="entry-date">
+            <span class="month">AUG</span>
+            <strong>27</strong>
+            <span class="year">2026</span>
+          </div>
+          <div class="entry-content">
+            <span class="entry-label">entry no. 03</span>
+            <h3>Things I've been learning</h3>
+            <p>
+              Use this space for another post. The layout is intentionally simple
+              so your own writing stays the focus.
+            </p>
+            <a href="#" class="entry-link">read entry →</a>
+          </div>
+          <div class="entry-flower">🌸</div>
         </article>
       </div>
     </section>
 
-    <section id="about" class="about-section">
-      <div class="about-card">
-        <div class="about-icon">💗</div>
-        <div>
-          <p class="eyebrow">a little about me</p>
-          <h2>Hi, I'm the person behind the blog!</h2>
-          <p>
-            This section is yours. Write a short introduction about yourself,
-            what your blog is about, and what readers can expect to find here.
-          </p>
+    <!-- PICTURES / SCRAPBOOK -->
+    <section id="pictures" class="pictures-section">
+      <div class="section-title">
+        <p class="small-heading">little moments</p>
+        <h2>Pictures</h2>
+        <p>A scrapbook for photos, memories, and things I want to keep.</p>
+      </div>
+
+      <div class="scrapbook">
+        <div class="sticker sticker-flower">🌼</div>
+        <div class="sticker sticker-heart">♡</div>
+        <div class="sticker sticker-cloud">☁️</div>
+        <div class="sticker sticker-star">✦</div>
+
+        <div class="scrap-note note-one">little moments<br>matter ♡</div>
+        <div class="scrap-note note-two">memories<br>from here</div>
+
+        <div class="photo-slot slot-one">
+          <div class="tape tape-pink"></div>
+          <div class="blank-photo">
+            <span>photo goes here</span>
+          </div>
+          <p>✿ a favorite moment</p>
         </div>
+
+        <div class="photo-slot slot-two">
+          <div class="tape tape-yellow"></div>
+          <div class="blank-photo">
+            <span>photo goes here</span>
+          </div>
+          <p>☁️ a little memory</p>
+        </div>
+
+        <div class="photo-slot slot-three">
+          <div class="tape tape-sage"></div>
+          <div class="blank-photo">
+            <span>photo goes here</span>
+          </div>
+          <p>♡ something worth keeping</p>
+        </div>
+
+        <div class="photo-slot slot-four">
+          <div class="tape tape-blue"></div>
+          <div class="blank-photo">
+            <span>photo goes here</span>
+          </div>
+          <p>✦ another little moment</p>
+        </div>
+
+        <div class="tiny-flower flower-one">✿</div>
+        <div class="tiny-flower flower-two">❀</div>
       </div>
     </section>
+
   </main>
 
   <footer>
-    <p>made with ♡ and a little bit of sunshine ☀️</p>
+    <p>Cloudypanda ☁️　made with little things worth remembering</p>
   </footer>
+
 </body>
 </html>

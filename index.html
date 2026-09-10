@@ -8,213 +8,244 @@
 </head>
 <body>
 
-  <div class="page-shell">
+  <div class="fairy-lights" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
 
-    <header class="site-header">
-      <a class="brand" href="#home">Cloudypanda</a>
-      <nav>
-        <a href="#home">home</a>
-        <a href="#posts">posts</a>
-        <a href="#pictures">pictures</a>
+  <div class="page-wrap">
+
+    <header class="topbar">
+      <div class="brand-block">
+        <a class="brand" href="#home">Cloudypanda</a>
+        <p>small thoughts • cozy days</p>
+      </div>
+
+      <nav class="topnav">
+        <a href="#home">Home</a>
+        <a href="#posts">Blog</a>
+        <a href="#pictures">Pictures</a>
       </nav>
     </header>
 
     <!-- HOME -->
-    <section id="home" class="home-section">
-      <div class="hero-paper">
-        <p class="kicker">welcome to my little corner</p>
-        <h1>Cloudypanda</h1>
-        <div class="tiny-divider">✿　♡　✿</div>
-        <p class="bio">
-          A cozy place for thoughts, stories, favorite things, and little moments I want to keep.
-        </p>
-        <a class="soft-button" href="#posts">start reading</a>
-      </div>
+    <section id="home" class="home-grid">
 
-      <aside class="home-sidebar">
-        <div class="sidebar-card">
-          <h3>✿ about this blog ✿</h3>
-          <p>
-            Soft pages, wandering thoughts, books, memories, and whatever else finds its way here.
-          </p>
-        </div>
-
-        <div class="sidebar-card shelf-card">
-          <p class="card-label">currently reading</p>
-          <div class="book-stack">
-            <span class="book book-1"></span>
-            <span class="book book-2"></span>
-            <span class="book book-3"></span>
+      <aside class="left-rail">
+        <div class="cozy-shelf">
+          <div class="shelf-books">
+            <span class="book b1"></span>
+            <span class="book b2"></span>
+            <span class="book b3"></span>
+            <span class="book b4"></span>
+            <span class="book b5"></span>
           </div>
-          <p class="book-note">a little reading nook ♡</p>
+          <div class="mug">☕</div>
+          <div class="blanket-fold"></div>
         </div>
 
-        <div class="sidebar-card mini-links">
-          <h3>✿ explore ✿</h3>
-          <a href="#posts">☁ blog entries</a>
-          <a href="#pictures">♡ photo scrapbook</a>
-          <a href="#home">✦ back to the top</a>
+        <div class="paper-card menu-card">
+          <h3>Explore</h3>
+          <a href="#home">⌂ Home</a>
+          <a href="#posts">▤ Blog Posts</a>
+          <a href="#pictures">▧ Pictures</a>
+        </div>
+
+        <div class="paper-note">
+          <p>“Good books, warm drinks, soft blankets.”</p>
+        </div>
+      </aside>
+
+      <main class="main-column">
+        <section class="hero-card">
+          <div class="hero-copy">
+            <p class="eyebrow">welcome to</p>
+            <h1>Cloudypanda</h1>
+            <p class="bio">
+              A cozy little space for thoughts, favorite things, books, and everyday moments.
+            </p>
+            <a class="primary-btn" href="#posts">Explore the blog →</a>
+          </div>
+
+          <div class="hero-cozy-scene" aria-label="cozy reading corner illustration">
+            <div class="window-glow"></div>
+            <div class="pillow pillow-1"></div>
+            <div class="pillow pillow-2"></div>
+            <div class="blanket"></div>
+            <div class="open-book">⌇</div>
+            <div class="hot-chocolate">☕</div>
+            <div class="tiny-lights">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+        </section>
+
+        <section class="latest-preview">
+          <div class="section-heading-row">
+            <div>
+              <p class="eyebrow">from the blog</p>
+              <h2>Latest Posts</h2>
+            </div>
+            <a href="#posts">view all posts →</a>
+          </div>
+
+          <article class="preview-post">
+            <div class="date-card"><strong>SEP</strong><span>12</span><small>2026</small></div>
+            <div class="preview-text">
+              <h3>Slow Mornings</h3>
+              <p>Thoughts on making ordinary mornings feel a little calmer and more intentional.</p>
+              <a href="#posts">read more →</a>
+            </div>
+            <div class="mini-photo cozy-photo-1"></div>
+          </article>
+
+          <article class="preview-post">
+            <div class="date-card"><strong>SEP</strong><span>05</span><small>2026</small></div>
+            <div class="preview-text">
+              <h3>What I’m Reading Right Now</h3>
+              <p>A little update on books, favorites, and the ones still waiting on my list.</p>
+              <a href="#posts">read more →</a>
+            </div>
+            <div class="mini-photo cozy-photo-2"></div>
+          </article>
+
+          <article class="preview-post">
+            <div class="date-card"><strong>AUG</strong><span>28</span><small>2026</small></div>
+            <div class="preview-text">
+              <h3>Finding Motivation Again</h3>
+              <p>A few thoughts about getting unstuck and appreciating smaller wins.</p>
+              <a href="#posts">read more →</a>
+            </div>
+            <div class="mini-photo cozy-photo-3"></div>
+          </article>
+        </section>
+      </main>
+
+      <aside class="right-rail">
+        <div class="paper-card reading-card">
+          <h3>Currently Reading</h3>
+          <div class="book-cover">BOOK</div>
+          <p class="reading-title">Your current book</p>
+          <p class="muted">add title + author here</p>
+          <div class="progress"><span></span></div>
+        </div>
+
+        <div class="paper-note quote-note">
+          <p>“A cozy space for a curious mind.”</p>
+        </div>
+
+        <div class="paper-card quick-notes">
+          <h3>Quick Notes</h3>
+          <label><input type="checkbox"> read a chapter</label>
+          <label><input type="checkbox"> make hot chocolate</label>
+          <label><input type="checkbox"> write something</label>
+          <label><input type="checkbox"> rest a little</label>
+        </div>
+
+        <div class="paper-card playlist-card">
+          <div class="album-art"></div>
+          <div>
+            <strong>a softer day</strong>
+            <p>playlist for reading</p>
+          </div>
+          <div class="player">◀　●　▶</div>
+        </div>
+
+        <div class="cat-card">
+          <div class="sleepy-cat">🐈</div>
+          <p>cozy corner</p>
         </div>
       </aside>
     </section>
 
     <!-- BLOG POSTS -->
     <section id="posts" class="posts-section">
-      <div class="section-banner">
-        <p>pages from the blog</p>
+      <div class="section-title">
+        <p class="eyebrow">pages from Cloudypanda</p>
         <h2>Blog Posts</h2>
+        <p>Longer entries in a soft, old-blog-meets-book-page style.</p>
       </div>
 
-      <div class="blog-layout">
-        <div class="post-column">
+      <div class="journal-page">
+        <article class="full-post">
+          <p class="post-date">Thursday, September 10, 2026</p>
+          <h3>My First Little Entry</h3>
+          <p>
+            This is where your first real blog post can go. The layout is meant to feel soft and personal,
+            like a page from a favorite old blog or a journal left open beside a stack of books.
+          </p>
+          <p>
+            You can make your entries as long or as short as you want. Replace this sample text with your
+            own writing whenever you're ready.
+          </p>
+          <div class="post-cozy-detail">📚　☕　▥</div>
+        </article>
 
-          <article class="post-entry">
-            <div class="post-date">Thursday, September 10, 2026</div>
-            <h3>My first little entry</h3>
-            <p class="dropcap">
-              This is where your first blog post can go. The layout is meant to feel like
-              reading a page tucked inside an old personal blog—soft, simple, and a little nostalgic.
-            </p>
-            <p>
-              You can replace this sample writing with your own post whenever you're ready.
-              Longer posts will naturally continue down the page just like a journal or diary entry.
-            </p>
-            <p>
-              Add stories, class reflections, favorite books, lists, memories, or whatever fits Cloudypanda.
-            </p>
-            <a class="read-more" href="#">continue reading ♡</a>
-          </article>
+        <div class="post-divider">✦</div>
 
-          <div class="entry-separator">❦</div>
+        <article class="full-post">
+          <p class="post-date">Monday, September 7, 2026</p>
+          <h3>Things I Want to Remember</h3>
+          <p>
+            Some days are mostly made of little things: finishing a chapter, finding a new favorite song,
+            wrapping up in a blanket, or finally writing down something you've been thinking about.
+          </p>
+          <p>
+            This second entry is another placeholder for one of your future posts.
+          </p>
+          <div class="post-cozy-detail">☁　📖　♡</div>
+        </article>
 
-          <article class="post-entry">
-            <div class="post-date">Monday, September 7, 2026</div>
-            <h3>Things I want to remember</h3>
-            <p class="dropcap">
-              Some days are made up of very small things. A good page in a book, a quiet afternoon,
-              a nice conversation, or something funny that happened when you least expected it.
-            </p>
-            <p>
-              This sample entry gives you another spot for a real post later. You can make entries as
-              short or as long as you want.
-            </p>
-            <a class="read-more" href="#">continue reading ♡</a>
-          </article>
+        <div class="post-divider">✦</div>
 
-          <div class="entry-separator">❦</div>
-
-          <article class="post-entry">
-            <div class="post-date">Friday, September 4, 2026</div>
-            <h3>A page from this week</h3>
-            <p class="dropcap">
-              A third entry lives here for now. The design keeps the writing area roomy and readable,
-              while the little details around it make the page feel warm and collected.
-            </p>
-            <a class="read-more" href="#">continue reading ♡</a>
-          </article>
-        </div>
-
-        <aside class="blog-sidebar">
-          <div class="sidebar-card search-card">
-            <h3>search this blog</h3>
-            <div class="fake-search">
-              <span>search...</span>
-              <button>go</button>
-            </div>
-          </div>
-
-          <div class="sidebar-card">
-            <h3>✿ meet the blogger ✿</h3>
-            <p>
-              Hi! Welcome to Cloudypanda. This is my place to collect writing, pictures,
-              and little pieces of everyday life.
-            </p>
-            <p class="script-note">♡ welcome to my corner of the internet</p>
-          </div>
-
-          <div class="sidebar-card quote-card">
-            <span class="big-quote">“</span>
-            <p>keep the little things.</p>
-          </div>
-
-          <div class="sidebar-card categories">
-            <h3>✿ explore ✿</h3>
-            <p>☁ thoughts</p>
-            <p>📚 books</p>
-            <p>♡ everyday things</p>
-            <p>✦ favorites</p>
-          </div>
-        </aside>
+        <article class="full-post">
+          <p class="post-date">Friday, September 4, 2026</p>
+          <h3>A Page From This Week</h3>
+          <p>
+            Use this space for another post. The body font stays simple and readable while the cards,
+            borders, tape details, and cozy objects give the whole page its personality.
+          </p>
+          <div class="post-cozy-detail">🕯　☕　📚</div>
+        </article>
       </div>
     </section>
 
     <!-- PICTURES -->
     <section id="pictures" class="pictures-section">
-      <div class="section-banner">
-        <p>little things worth keeping</p>
+      <div class="section-title">
+        <p class="eyebrow">little things worth keeping</p>
         <h2>Pictures</h2>
+        <p>A scrapbook-style page with seven blank spaces ready for your photos.</p>
       </div>
 
       <div class="scrapbook">
-        <div class="paper-note note-a">memories ♡</div>
-        <div class="paper-note note-b">little moments</div>
-        <div class="paper-note note-c">keep this one</div>
-
-        <div class="photo polaroid p1">
-          <span class="tape tape-pink"></span>
-          <div class="photo-blank">photo</div>
-          <p>a favorite day</p>
+        <div class="scrap-string-lights">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
         </div>
 
-        <div class="photo polaroid p2">
-          <span class="tape tape-cream"></span>
-          <div class="photo-blank">photo</div>
-          <p>something lovely</p>
-        </div>
+        <div class="photo-slot p1"><span class="tape blush"></span><div class="blank">photo</div><p>a favorite day</p></div>
+        <div class="photo-slot p2"><span class="tape sage"></span><div class="blank">photo</div><p>from lately</p></div>
+        <div class="photo-slot p3"><span class="tape sky"></span><div class="blank">photo</div><p>worth keeping</p></div>
+        <div class="photo-slot p4"><span class="tape rose"></span><div class="blank">photo</div><p>little moment</p></div>
+        <div class="photo-slot p5"><span class="tape blush"></span><div class="blank">photo</div><p>cozy memory</p></div>
+        <div class="photo-slot p6"><span class="tape sage"></span><div class="blank">photo</div><p>one for later</p></div>
+        <div class="photo-slot p7"><span class="tape sky"></span><div class="blank">photo</div><p>another favorite</p></div>
 
-        <div class="photo polaroid p3">
-          <span class="tape tape-blue"></span>
-          <div class="photo-blank">photo</div>
-          <p>from lately</p>
-        </div>
+        <div class="scrap-element stack-books">📚</div>
+        <div class="scrap-element mug-sticker">☕</div>
+        <div class="scrap-element blanket-sticker">▥</div>
+        <div class="scrap-element candle-sticker">🕯</div>
+        <div class="scrap-element moon-sticker">☾</div>
 
-        <div class="photo polaroid p4">
-          <span class="tape tape-pink"></span>
-          <div class="photo-blank">photo</div>
-          <p>worth remembering</p>
-        </div>
-
-        <div class="photo polaroid p5">
-          <span class="tape tape-cream"></span>
-          <div class="photo-blank">photo</div>
-          <p>little detail</p>
-        </div>
-
-        <div class="photo polaroid p6">
-          <span class="tape tape-blue"></span>
-          <div class="photo-blank">photo</div>
-          <p>one for the scrapbook</p>
-        </div>
-
-        <div class="photo polaroid p7">
-          <span class="tape tape-pink"></span>
-          <div class="photo-blank">photo</div>
-          <p>another memory</p>
-        </div>
-
-        <div class="sticker s1">✿</div>
-        <div class="sticker s2">♡</div>
-        <div class="sticker s3">☁</div>
-        <div class="sticker s4">✦</div>
-        <div class="sticker s5">❦</div>
+        <div class="scrap-note n1">slow days ♡</div>
+        <div class="scrap-note n2">read one more chapter</div>
+        <div class="scrap-note n3">warm drink weather</div>
       </div>
     </section>
 
     <footer>
-      <p>Cloudypanda ♡ made for quiet thoughts and favorite things</p>
+      <p>Cloudypanda ♡ made with cozy thoughts</p>
     </footer>
-
   </div>
-
 </body>
 </html>
